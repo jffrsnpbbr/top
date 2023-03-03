@@ -1,6 +1,5 @@
 i = 0
-loop do
+until i >= 10 do
   puts "i is #{i}"
   i += 1
-  break if i ==10
 end
